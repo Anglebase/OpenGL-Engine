@@ -6,7 +6,7 @@ description = "A engine base OpenGL."
 repository = "https://github.com/Anglebase/OpenGL-Engine.git"
 license = "LGPL-2.1"
 
-[dependencies]
+[target.'cfg(windows)'.dependencies]
 chrono = "0.4.39"
 colored = "3.0.0"
 constcat = "0.6.0"
