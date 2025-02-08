@@ -3,6 +3,8 @@ name = "gle"
 version = "0.1.0"
 edition = "2021"
 description = "A engine base OpenGL."
+repository = "https://github.com/Anglebase/OpenGL-Engine.git"
+license = "LGPL-2.1"
 
 [dependencies]
 chrono = "0.4.39"
