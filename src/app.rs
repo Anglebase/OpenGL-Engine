@@ -26,9 +26,9 @@ pub use glfw::{Action, CursorMode, Key, Modifiers};
 /// # 示例
 ///
 /// ```
-/// use rustcraft::AppBuilder;
+/// use gle::AppBuilder;
 ///
-/// let mut app = AppBuilder::new(800, 600, "RustCraft").build();
+/// let mut app = AppBuilder::new(800, 600, "OpenGL Engine").build();
 /// ```
 pub struct AppBuilder {
     size: (i32, i32),
@@ -363,9 +363,9 @@ impl AppBuilder {
 /// # 示例
 ///
 /// ```
-/// use rustcraft::AppBuilder;
+/// use gle::AppBuilder;
 ///
-/// let mut app = AppBuilder::new(800, 600, "RustCraft").build();
+/// let mut app = AppBuilder::new(800, 600, "OpenGL Engine").build();
 /// app.exec();
 /// ```
 pub struct App {
